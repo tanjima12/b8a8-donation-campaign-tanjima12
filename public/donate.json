@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "category": "Health",
+    "title": "Clean water for children",
+    "background_color": "blue",
+    "text_color": "blue",
+    "image": "https://i.ibb.co/DYDrgGF/Health.png"
+  },
+  {
+    "id": "2",
+    "category": "Education",
+    "title": "Good education",
+    "background_color": "red",
+    "text_color": "red",
+    "image": "https://i.ibb.co/1m8kYHK/Education.png"
+  },
+  {
+    "id": "3",
+    "category": "Clothing",
+    "title": "Used Clothing Drive",
+    "background_color": "green",
+    "text_color": "green",
+    "image": "https://i.ibb.co/vwYckNY/Clothing.png"
+  },
+  {
+    "id": "4",
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "background_color": "pink",
+    "text_color": "pink",
+    "image": "https://i.ibb.co/2sK4Yds/Food.png"
+  },
+  {
+    "id": "5",
+    "category": "Health",
+    "title": "Clean water for children",
+    "background_color": "blue",
+    "text_color": "blue",
+    "image": "https://i.ibb.co/DYDrgGF/Health.png"
+  },
+  {
+    "id": "6",
+    "category": "Education",
+    "title": "Good education",
+    "background_color": "red",
+    "text_color": "red",
+    "image": "https://i.ibb.co/1m8kYHK/Education.png"
+  },
+  {
+    "id": "7",
+    "category": "Clothing",
+    "title": "Used Clothing Drive",
+    "background_color": "green",
+    "text_color": "green",
+    "image": "https://i.ibb.co/vwYckNY/Clothing.png"
+  },
+  {
+    "id": "8",
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "background_color": "pink",
+    "text_color": "pink",
+    "image": "https://i.ibb.co/2sK4Yds/Food.png"
+  },
+  {
+    "id": "9",
+    "category": "Health",
+    "title": "Clean water for children",
+    "background_color": "blue",
+    "text_color": "blue",
+    "image": "https://i.ibb.co/DYDrgGF/Health.png"
+  },
+  {
+    "id": "10",
+    "category": "Education",
+    "title": "Good education",
+    "background_color": "red",
+    "text_color": "red",
+    "image": "https://i.ibb.co/1m8kYHK/Education.png"
+  },
+  {
+    "id": "11",
+    "category": "Clothing",
+    "title": "Used Clothing Drive",
+    "background_color": "green",
+    "text_color": "green",
+    "image": "https://i.ibb.co/vwYckNY/Clothing.png"
+  },
+  {
+    "id": "12",
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "background_color": "pink",
+    "text_color": "pink",
+    "image": "https://i.ibb.co/2sK4Yds/Food.png"
+  }
+]
