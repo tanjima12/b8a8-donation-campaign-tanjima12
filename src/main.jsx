@@ -5,10 +5,12 @@ import Root from "./Root/Root";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Components/Home/Home";
-import Navbar from "./Components/Navbar/Navbar";
+
 import Statistics from "./Components/Statistics/Statistics";
-import Donation from "./Components/Donation/Donation";
+
 import Errorelement from "./Components/ErrorElement/Errorelement";
+import Details from "./Components/Details/Details";
+import Donate from "./Components/Donate/Donate";
 
 const router = createBrowserRouter([
   {
@@ -19,19 +21,21 @@ const router = createBrowserRouter([
       {
         path: "/home",
         element: <Home></Home>,
-        loader: () => fetch("donate.json"),
+        loader: () => fetch("/donate.json"),
       },
       {
-        path: "/navbar",
-        element: <Navbar></Navbar>,
+        path: "/donation",
+        element: <Donate></Donate>,
       },
+
       {
         path: "/statis",
         element: <Statistics></Statistics>,
       },
       {
-        path: "/donation",
-        element: <Donation></Donation>,
+        path: "/donate/:id",
+        element: <Details></Details>,
+        loader: () => fetch("/donate.json"),
       },
     ],
   },
