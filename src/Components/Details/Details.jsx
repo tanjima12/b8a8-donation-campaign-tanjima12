@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from "sweetalert";
 
 const Details = () => {
   const [category, setCategory] = useState({});
@@ -24,11 +25,12 @@ const Details = () => {
       localStorage.setItem("addedCategory", JSON.stringify(addDetails));
     } else {
       const isAdd = addedItems.find((item) => item.id === id);
+      swal("Successfully!", "Your donate is done", "success");
       if (!isAdd) {
         addDetails.push(...addedItems, category);
         localStorage.setItem("addedCategory", JSON.stringify(addDetails));
       } else {
-        console.log("already ase");
+        swal("Thank you", "You are already donated", "success");
       }
     }
   };
@@ -67,7 +69,7 @@ const Details = () => {
       </div>
       <div className="ml-24">
         <h1 className="text-3xl font-bold">{category.title}</h1>
-        <p className="text-xl">{category.description}</p>
+        <p className="text-xl mb-5">{category.description}</p>
       </div>
     </div>
   );

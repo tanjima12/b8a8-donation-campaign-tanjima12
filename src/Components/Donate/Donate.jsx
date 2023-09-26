@@ -17,7 +17,7 @@ const Donate = () => {
   return (
     <div>
       {noFound ? (
-        <p>{noFound}</p>
+        <p className="text-3xl text-center mt-10">{noFound}</p>
       ) : (
         <div className="mt-5 ml-5 grid grid-cols-2">
           {donate.map((card) => (

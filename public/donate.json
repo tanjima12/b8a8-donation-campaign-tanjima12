@@ -7,7 +7,7 @@
     "text_color": "#0052FF",
     "image": "https://i.ibb.co/DYDrgGF/Health.png",
     "price": "$19.99",
-    "description": "A collection of health and wellness products."
+    "description": "The Health category encompasses a wide range of topics related to physical and mental well-being. It includes information and resources on maintaining and improving one's health, such as nutrition, exercise, mental health, preventive care, medical conditions, wellness practices, and healthy lifestyle choices. "
   },
   {
     "id": "2",
@@ -17,7 +17,7 @@
     "text_color": "#FF444A",
     "image": "https://i.ibb.co/1m8kYHK/Education.png",
     "price": "$29.99",
-    "description": "Educational materials and resources for all ages."
+    "description": "The Education category covers a wide spectrum of topics related to learning, academic pursuits, and personal development. It includes information and resources on various levels of education, from early childhood education to higher education and lifelong learning. This category encompasses subjects such as teaching methods, educational technologies, curriculum design, study strategies, career development, and educational institutions."
   },
   {
     "id": "3",
@@ -27,7 +27,7 @@
     "text_color": "#79C23F",
     "image": "https://i.ibb.co/vwYckNY/Clothing.png",
     "price": "$49.99",
-    "description": "Fashionable clothing for men, women, and children."
+    "description": "The Clothing category pertains to all aspects of apparel, fashion, and personal style. It includes information on various types of clothing, footwear, and accessories for different occasions and purposes. This category covers topics such as fashion trends, clothing brands, style tips, fabric materials, garment care, and fashion history."
   },
   {
     "id": "4",
@@ -37,7 +37,7 @@
     "text_color": "#F87147",
     "image": "https://i.ibb.co/2sK4Yds/Food.png",
     "price": "$9.99",
-    "description": "Delicious and affordable food items and groceries."
+    "description": "Food categories are broad classifications that group similar types of foods based on shared characteristics. One such category is Fruits and Vegetables,encompassing a diverse range of edible plants, from sweet and juicy fruits like apples and strawberries to nutrient-rich vegetables like broccoli and spinach. Another category is Proteins, which includes sources of animal protein such as poultry, and fish, as well as plant-based options like tofu and legumes."
   },
   {
     "id": "5",
@@ -47,7 +47,7 @@
     "text_color": "#0052FF",
     "image": "https://i.ibb.co/DYDrgGF/Health.png",
     "price": "$19.99",
-    "description": "A collection of health and wellness products."
+    "description": "The Health category encompasses a wide range of topics related to physical and mental well-being. It includes information and resources on maintaining and improving one's health, such as nutrition, exercise, mental health, preventive care, medical conditions, wellness practices, and healthy lifestyle choices. "
   },
   {
     "id": "6",
@@ -57,7 +57,7 @@
     "text_color": "#FF444A",
     "image": "https://i.ibb.co/1m8kYHK/Education.png",
     "price": "$29.99",
-    "description": "Educational materials and resources for all ages."
+    "description": "The Education category covers a wide spectrum of topics related to learning, academic pursuits, and personal development. It includes information and resources on various levels of education, from early childhood education to higher education and lifelong learning. This category encompasses subjects such as teaching methods, educational technologies, curriculum design, study strategies, career development, and educational institutions."
   },
   {
     "id": "7",
@@ -67,7 +67,7 @@
     "text_color": "#79C23F",
     "image": "https://i.ibb.co/vwYckNY/Clothing.png",
     "price": "$49.99",
-    "description": "Fashionable clothing for men, women, and children."
+    "description": "The Clothing category pertains to all aspects of apparel, fashion, and personal style. It includes information on various types of clothing, footwear, and accessories for different occasions and purposes. This category covers topics such as fashion trends, clothing brands, style tips, fabric materials, garment care, and fashion history."
   },
   {
     "id": "8",
@@ -77,7 +77,7 @@
     "text_color": "#F87147",
     "image": "https://i.ibb.co/2sK4Yds/Food.png",
     "price": "$9.99",
-    "description": "Delicious and affordable food items and groceries."
+    "description": "Food categories are broad classifications that group similar types of foods based on shared characteristics. One such category is Fruits and Vegetables,encompassing a diverse range of edible plants, from sweet and juicy fruits like apples and strawberries to nutrient-rich vegetables like broccoli and spinach. Another category is Proteins, which includes sources of animal protein such as poultry, beef, and fish, as well as plant-based options like tofu and legumes."
   },
   {
     "id": "9",
@@ -87,7 +87,7 @@
     "text_color": "#0052FF",
     "image": "https://i.ibb.co/DYDrgGF/Health.png",
     "price": "$19.99",
-    "description": "A collection of health and wellness products."
+    "description": "The Health category encompasses a wide range of topics related to physical and mental well-being. It includes information and resources on maintaining and improving one's health, such as nutrition, exercise, mental health, preventive care, medical conditions, wellness practices, and healthy lifestyle choices. "
   },
   {
     "id": "10",
@@ -97,7 +97,7 @@
     "text_color": "#FF444A",
     "image": "https://i.ibb.co/1m8kYHK/Education.png",
     "price": "$29.99",
-    "description": "Educational materials and resources for all ages."
+    "description": "The Education category covers a wide spectrum of topics related to learning, academic pursuits, and personal development. It includes information and resources on various levels of education, from early childhood education to higher education and lifelong learning. This category encompasses subjects such as teaching methods, educational technologies, curriculum design, study strategies, career development, and educational institutions."
   },
   {
     "id": "11",
@@ -107,7 +107,7 @@
     "text_color": "#79C23F",
     "image": "https://i.ibb.co/vwYckNY/Clothing.png",
     "price": "$49.99",
-    "description": "Fashionable clothing for men, women, and children."
+    "description": "The Clothing category pertains to all aspects of apparel, fashion, and personal style. It includes information on various types of clothing, footwear, and accessories for different occasions and purposes. This category covers topics such as fashion trends, clothing brands, style tips, fabric materials, garment care, and fashion history."
   },
   {
     "id": "12",
@@ -117,6 +117,6 @@
     "text_color": "#F87147",
     "image": "https://i.ibb.co/2sK4Yds/Food.png",
     "price": "$9.99",
-    "description": "Delicious and affordable food items and groceries."
+    "description": "Food categories are broad classifications that group similar types of foods based on shared characteristics. One such category is Fruits and Vegetables,encompassing a diverse range of edible plants, from sweet and juicy fruits like apples and strawberries to nutrient-rich vegetables like broccoli and spinach. Another category is Proteins, which includes sources of animal protein such as poultry, beef, and fish, as well as plant-based options like tofu and legumes."
   }
 ]
