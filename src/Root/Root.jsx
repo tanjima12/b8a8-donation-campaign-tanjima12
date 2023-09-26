@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar/Navbar";
 const Root = () => {
   return (
     <div>
-      <div className="ml-8 mr-8">
+      <div className="lg:ml-8 lg:mr-8">
         <Navbar></Navbar>
       </div>
 
