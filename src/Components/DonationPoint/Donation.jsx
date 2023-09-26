@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 const Donation = ({ donation }) => {
   const { image, category, background_color, text_color, title, id } = donation;
+
   const bgColor = {
     backgroundColor: background_color,
   };

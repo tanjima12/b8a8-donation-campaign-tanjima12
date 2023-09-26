@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 
 const Donate = () => {
+  const [datalength, setdatalength] = useState(4);
   const [donate, setDonate] = useState([]);
   const [noFound, setFound] = useState(false);
   useEffect(() => {
@@ -20,11 +21,14 @@ const Donate = () => {
         <p className="text-3xl text-center mt-10">{noFound}</p>
       ) : (
         <div className="mt-5 ml-5 grid grid-cols-2">
-          {donate.map((card) => (
+          {donate.slice(0, datalength).map((card) => (
             <Card key={card.id} card={card}></Card>
           ))}
         </div>
       )}
+      <div onClick={() => setdatalength()} className="flex justify-center mt-5">
+        <button className="btn bg-red-300">See All</button>
+      </div>
     </div>
   );
 };
