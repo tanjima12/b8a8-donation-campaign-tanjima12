@@ -49,7 +49,7 @@ const Card = ({ card }) => {
   );
 };
 Card.propTypes = {
-  card: PropTypes.function,
+  card: PropTypes.object,
 };
 
 export default Card;

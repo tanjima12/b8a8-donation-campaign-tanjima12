@@ -42,36 +42,30 @@ const Details = () => {
 
   // style={{ position: "relative" }}
   return (
-    <div>
-      <img
-        className="absolute ml-10 lg:w-[1320px] lg:h-[650px] lg:ml-24 mt-10 "
-        src={category.image}
-      ></img>
-      {/* <div
-        style={{
-          positon: "absolute",
-          top: "0",
-          left: "0",
-          width: "100%",
-          height: "25%",
-          background:
-            "linear-gradient(transparent,transparent calc(100%-var(--opacity)),rgba(0,0,0,1))",
-        }}
-      ></div> */}
+    <section>
       <div>
-        <button
-          onClick={handleDetails}
-          style={detailsbg}
-          className="btn relative mt-[180px] mb-16 lg:mt-[620px] ml-32 lg:mb-20"
-        >
-          Donate $290
-        </button>
+        <img
+          className="relative ml-10 md:w-[1320px] lg:w-[1320px] lg:h-[650px] lg:ml-24 mt-10 "
+          src={category.image}
+        ></img>
+
+        <div className="w-[310px] md:w-[770px] lg:w-[1320px] h-[50px] lg:h-[80px] bg-blend-overlay bg-black bg-opacity-40 bottom-[550px] left-[40px] md:bottom-[420px] lg:bottom-[10px] lg:left-[95px] absolute">
+          <div>
+            <button
+              onClick={handleDetails}
+              style={detailsbg}
+              className="btn lg:mt-5   lg:ml-32 "
+            >
+              Donate $290
+            </button>
+          </div>
+        </div>
+        <div className="ml-24">
+          <h1 className="text-3xl font-bold">{category.title}</h1>
+          <p className="text-xl mb-5">{category.description}</p>
+        </div>
       </div>
-      <div className="ml-24">
-        <h1 className="text-3xl font-bold">{category.title}</h1>
-        <p className="text-xl mb-5">{category.description}</p>
-      </div>
-    </div>
+    </section>
   );
 };
 

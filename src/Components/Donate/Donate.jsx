@@ -20,7 +20,7 @@ const Donate = () => {
       {noFound ? (
         <p className="text-3xl text-center mt-10">{noFound}</p>
       ) : (
-        <div className="mt-5 md:ml-40 lg:ml-5 grid grid-cols-1 lg:grid-cols-2">
+        <div className="mt-5 md:ml-40  lg:ml-5 grid grid-cols-1 lg:grid-cols-2">
           {donate.slice(0, datalength).map((card) => (
             <Card key={card.id} card={card}></Card>
           ))}
