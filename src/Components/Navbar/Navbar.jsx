@@ -4,12 +4,12 @@ const Navbar = () => {
   return (
     <div className="navbar justify-between bg-base-100 shadow-xl">
       <div>
-        <img src="/src/picture/Logo (1).png"></img>
+        <img src="/public/picture/Logo (1).png"></img>
       </div>
       <div>
         <ul className="text-black rounded-box flex gap-5">
           <li>
-            <NavLink className="hover:text-red-500 text-xl" to="/home">
+            <NavLink className="hover:text-red-500 text-xl" to="/">
               Home
             </NavLink>
           </li>

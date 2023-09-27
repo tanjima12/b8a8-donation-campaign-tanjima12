@@ -26,11 +26,11 @@ const Home = () => {
       <div>
         <img
           className="relative opacity-20 mt-5  lg:max-w-7xl mx-auto"
-          src="/src/picture/Rectangle 4281.jpg"
+          src="/public/picture/Rectangle 4281.jpg"
         ></img>
       </div>
       <div>
-        <div className="absolute top-[20px] lg:top-[250px] lg:left-[450px] text-center mt-5 mb-5 ">
+        <div className="absolute top-[20px] md:top-[200px] md:left-[180px] lg:top-[250px] lg:left-[450px] text-center mt-5 mb-5 ">
           <h1 className="text-3xl font-bold lg:mb-8 pt-12">
             I Grow By Helping People In Need
           </h1>

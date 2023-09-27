@@ -44,7 +44,7 @@ const Details = () => {
   return (
     <div>
       <img
-        className="absolute w-[1320px] h-[650px] ml-24 mt-10 "
+        className="absolute ml-10 lg:w-[1320px] lg:h-[650px] lg:ml-24 mt-10 "
         src={category.image}
       ></img>
       {/* <div
@@ -62,7 +62,7 @@ const Details = () => {
         <button
           onClick={handleDetails}
           style={detailsbg}
-          className="btn relative mt-[620px] ml-32 mb-20"
+          className="btn relative mt-[180px] mb-16 lg:mt-[620px] ml-32 lg:mb-20"
         >
           Donate $290
         </button>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const Donation = ({ donation }) => {
   const { image, category, background_color, text_color, title, id } = donation;
@@ -37,6 +38,9 @@ const Donation = ({ donation }) => {
       </div>
     </Link>
   );
+};
+Donation.propTypes = {
+  donation: PropTypes.object,
 };
 
 export default Donation;

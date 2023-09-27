@@ -1,5 +1,7 @@
+import PropTypes from "prop-types";
+
 const Card = ({ card }) => {
-  const { image, category, background_color, text_color, price, title, id } =
+  const { image, category, background_color, text_color, price, title } =
     card || {};
   const donatatebg = {
     backgroundColor: text_color,
@@ -14,7 +16,7 @@ const Card = ({ card }) => {
     <div>
       <div
         style={textbg}
-        className="mt-3 mr-2 relative flex w-[550px] ml-20  flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+        className="mt-3 mr-2 relative flex w-[450px] lg:w-[550px] lg:ml-20  flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
       >
         <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
           <img src={image} alt="image" className="h-full w-full object-cover" />
@@ -45,6 +47,9 @@ const Card = ({ card }) => {
       </div>
     </div>
   );
+};
+Card.propTypes = {
+  card: PropTypes.function,
 };
 
 export default Card;
