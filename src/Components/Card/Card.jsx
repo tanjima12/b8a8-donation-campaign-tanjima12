@@ -23,7 +23,7 @@ const Card = ({ card }) => {
         </div>
         <div className="p-6">
           <h6
-            style={(donatatetext, textbg)}
+            style={{ ...donatatetext, ...textbg }}
             className="pl-10 mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased"
           >
             {category}
