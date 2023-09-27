@@ -26,7 +26,7 @@ const Home = () => {
       <div>
         <img
           className="relative opacity-20 mt-5  lg:max-w-7xl mx-auto"
-          src="/public/picture/Rectangle 4281.jpg"
+          src="https://i.ibb.co/mHLVfkj/Rectangle-4281.jpg"
         ></img>
       </div>
       <div>
