@@ -35,12 +35,6 @@ const Details = () => {
     }
   };
 
-  // const imgStyle = {
-  //   opacity: "calc(1-(var(--opacity)/100))",
-  //   height: "650px",
-  // };
-
-  // style={{ position: "relative" }}
   return (
     <section>
       <div>
